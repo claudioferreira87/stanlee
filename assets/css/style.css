@@ -1,0 +1,133 @@
+/*Style CSS  */
+/* Author: Claudio Ferreira */
+
+body {
+  font-family: fantasy;
+  font-size: 22px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image:  url('../images/background.jpg');
+}
+
+#general {
+  background-color: #000000;
+  max-width: 780px;
+  color: #FFFFFF;
+  height: auto;
+  border-radius: 50px;
+}
+
+.desc_title {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sub_title {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.main_photo {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.photo {
+  border: 2px solid #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.photo img {
+  border-radius: 240px;
+  width: 752px;
+  height: auto;
+}
+
+.phrase {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.biograph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.biograph .ph1,
+.biograph .ph2 {
+  padding: 15px;
+}
+
+.achievements {
+ padding: 50px;
+}
+
+.achievements_title {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_bar {
+  height: 5px;
+  background-color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.other_photos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.other_photos .img {
+  border: 2px solid #d81f1f;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.timeline {
+  padding: 50px;
+}
+
+.timeline_desc {
+  padding: 20px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline .pp {
+  padding: 20px;
+  text-decoration:
+}
+
+.rights {
+  display: flex;
+  justify-content: center;
+}
+
+.wikipedia {
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
